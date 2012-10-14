@@ -1,0 +1,93 @@
+/* @override http://dilettant.se/style.css */
+
+body{
+  
+  padding: 40px 30px 30px;
+  -webkit-text-stroke: 0.35px;
+}
+
+html {
+	font: 19px 'Josefin Slab', serif;
+}
+
+
+a {
+  color: #9D0049;
+	font-style: italic;
+	font-family: 'Lora';
+	font-weight: 700;
+}
+
+h1{
+  color: #0086A1;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 56px;
+  width: 100%;
+  margin: 0 0 10px;
+	background: url(logo.png) no-repeat center top;
+	padding-top: 100px;
+}
+
+h2{
+ font: italic 700 21 'Lora';
+  color: #5AC09A;
+	background: url(dotted.png) no-repeat center bottom;
+	padding-bottom: 40px;
+	margin: 0 0 20px;
+}
+
+section.main{
+  margin-top: 0;
+	background: url(dot.png) no-repeat center bottom;
+	padding-bottom: 50px;
+}
+
+.centered{
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+p{
+  width: 640px;
+  padding: 10px;
+}
+
+.address{
+	margin-bottom: 20px;
+}
+
+.address p,
+.contact p{
+	padding: 0 0 5px;
+}
+
+.contact a{
+	font-size: 14px;
+}
+
+.contact a:link,
+.contact a:visited{
+	text-decoration: none;
+}
+
+.contact a:hover,
+.contact a:active{
+	text-decoration: underline;
+}
+
+footer{
+	font-size: 16px;
+}
+
+footer h3{
+	color: #2499b3;
+	font-size: 25px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-style: normal;
+}
